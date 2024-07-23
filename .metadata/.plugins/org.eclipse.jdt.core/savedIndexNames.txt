@@ -1,0 +1,22 @@
+INDEX VERSION 1.134+C:\temp\Testes-Unitários\.metadata\.plugins\org.eclipse.jdt.core
+669510481.index
+4110279279.index
+1124013674.index
+2158368281.index
+397585407.index
+3807197300.index
+690899570.index
+2094444342.index
+1622225051.index
+2231391670.index
+3925679965.index
+2065652060.index
+4259227300.index
+1571994585.index
+338737911.index
+1865797976.index
+3924229942.index
+3364397866.index
+3000632545.index
+4158660594.index
+2090927227.index

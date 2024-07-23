@@ -1,0 +1,9 @@
+
+public class CalculadoraMain {
+	public static void main(String[] args) {
+		CalculadoraTest calculadoraTest = new CalculadoraTest();
+		
+		System.out.println(calculadoraTest.testeSomaDaCalculadora());
+	}
+	
+}

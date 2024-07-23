@@ -1,0 +1,25 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.Assert.*;
+
+class LivroTest {
+
+	@Test
+	public void testeSomaCalculadora() {
+		Livro calculadora = new Livro(6, 10);
+		int resultadoEsperado = 16;
+		int resultado = calculadora.soma();
+		
+		assertEquals(resultado, resultadoEsperado);
+	}
+
+	@Test
+	public void testeSomaCalculadoraErro() {
+		Livro calculadora = new Livro(6, 10);
+		int resultadoEsperado = 6;
+		int resultado = calculadora.soma();
+		
+		assertNotEquals(resultadoEsperado, resultado);
+	}
+}

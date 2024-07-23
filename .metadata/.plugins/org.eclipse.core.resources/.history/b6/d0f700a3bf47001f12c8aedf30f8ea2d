@@ -1,0 +1,15 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.FixMethodOrder;
+import org.junit.jupiter.api.Test;
+import org.junit.runners.MethodSorters;
+
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+class PilhaTestOrder {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,18 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import junit.framework.Assert;
+
+class CalculadoraTest {
+
+	@Test
+	public void testeSomaCalculadora() {
+		Calculadora calculadora = new Calculadora(6, 10);
+		int resultadoEsperado = 16;
+		int resultado = calculadora.soma();
+		
+		Assert.assertEquals(resultado, resultadoEsperado);
+	}
+
+}
